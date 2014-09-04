@@ -14,7 +14,7 @@ The following commands will launch the tests with the individual browsers:
 
     Replace ./gradlew with gradlew.bat if you are running the examples in Windows.
 
-Note: Due to a bug in Firefox 32.0, you must downgrade to Firefox 30 for firefoxTest to pass.
+Note: Due to a bug in Firefox 32.0, you must downgrade to Firefox 30 for firefoxTest to pass. Turn off automatic updates before you install Firefox 30.0. When installing, choose to replace the Firefox application.
 
 The first time you run these tests, a lot of stuff will be download. It will take a couple minutes.
 
