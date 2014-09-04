@@ -1,5 +1,6 @@
 Replace the dummy tests with your actual spock test code in the specs folder.
-Put the Geb pages in the pages directory.
+Put the Geb pages in a pages directory at the same level as the specs directory.
+The rest of the project is the gradle setup. Gradle is the build tool and nothing needs to be done with that.
 
 The following commands will launch the tests with the individual browsers:
 
