@@ -4,13 +4,11 @@ ext {
     // The drivers we want to use
     drivers = ["firefox", "chrome", "phantomJs"]
 
-    ext {
-        groovyVersion = '2.3.6'
-        gebVersion = '0.9.3'
-        seleniumVersion = '2.41.0'
-        chromeDriverVersion = '2.10'
-        phantomJsVersion = '1.9.7'
-    }
+    groovyVersion = '2.3.6'
+    gebVersion = '0.9.3'
+    seleniumVersion = '2.41.0'
+    chromeDriverVersion = '2.10'
+    phantomJsVersion = '1.9.7'
 }
 
 apply plugin: "groovy"
